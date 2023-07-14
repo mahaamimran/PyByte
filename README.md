@@ -19,9 +19,9 @@ The command should display the installed Python version without any errors.
 ```
 This command will download and install the Pillow Library.
 - After the installation completes, verify the installation by running the following command:
-  ```
-  pip show pillow
-  ```
+```
+pip show pillow
+```
 ### Usage
 To use PyByte and compress JPEG images:
 - Replace input.jpeg with the image you would like to compress
