@@ -22,7 +22,7 @@ This command will download and install the Pillow Library.
 ```
 pip show pillow
 ```
-### Usage
+### Usage (will change based on updates)
 To use PyByte and compress JPEG images:
 - Replace input.jpeg with the image you would like to compress
 - Set the Compression Quality (1-100) in the PyByte.py script.
