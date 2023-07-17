@@ -24,10 +24,13 @@ pip show pillow
 ```
 ### Usage (will change based on updates)
 To use PyByte and compress JPEG images:
+- Clone the repository to your local machine with the following command:
+```
+git clone https://github.com/mahaamimran/PyByte.git
+```
+- Navigate to the directory where you cloned the repository.
 - Replace input.jpeg with the image you would like to compress
 - Set the Compression Quality (1-100) in the PyByte.py script.
 - Execute the PyByte script in your preffered IDE/Text editor.
 - Your compressed image should appear as compressed.jpeg in the directory.
-
-
 #### - Maham

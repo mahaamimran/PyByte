@@ -8,16 +8,11 @@ def compress_image(quality):
     image.save('compressed.jpg', quality=quality)
 
 print("Welcome to PyByte")
-print("What do you want to compress?")
-print("1. Image")
-choice = int(input())
-
-if choice == 1:
-    # Ask for compression quality
-    quality = int(input("Enter the compression quality (1-100): "))
-    # Validate the input
-    if quality < 1 or quality > 100:
-        print("Invalid compression quality. Please enter a value between 1 and 100.")
-    else:
-        compress_image(quality)
-        print("Image compressed successfully!")
+# Ask for compression quality
+quality = int(input("Enter the compression quality (1-100): "))
+# Validate the input
+if quality < 1 or quality > 100:
+    print("Invalid compression quality. Please enter a value between 1 and 100.")
+else:
+    compress_image(quality)
+    print("Image compressed successfully!")
